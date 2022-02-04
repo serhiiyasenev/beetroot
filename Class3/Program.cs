@@ -6,6 +6,12 @@ namespace Class3
     {
         static void Main(string[] args)
         {
+            var a = 5;
+            var b = 5;
+
+            Console.WriteLine(a++);
+            Console.WriteLine(++b);
+
             Console.WriteLine("Input x:");
             var x = int.Parse(Console.ReadLine());
             Console.WriteLine("Input y:");
